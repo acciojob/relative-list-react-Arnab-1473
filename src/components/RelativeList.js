@@ -13,6 +13,7 @@ const RelativeList = () => {
       </ol>
     </div>
   );
+  
 };
 
 export default RelativeList;
