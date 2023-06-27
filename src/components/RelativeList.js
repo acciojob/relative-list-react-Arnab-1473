@@ -5,7 +5,7 @@ const RelativeList = () => {
 
   return (
     <div>
-      <h1>Relatives to Visit:</h1>
+      <h1>Relatives to Visit::</h1>
       <ol key="relativeList">
         {relatives.map((relative, index) => (
           <li key={`relativeListItem${index + 1}`}>{relative}</li>
