@@ -1,9 +1,11 @@
 import React from 'react'
+import RelativeList from './RelativeList'
 
 const App = () => {
   return (
     <div id="main">
-               {/* Do not remove the main div */}
+              <h1>App Component</h1>
+               <RelativeList/>
     </div>
   )
 }
